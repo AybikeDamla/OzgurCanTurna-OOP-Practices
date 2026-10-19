@@ -1,0 +1,10 @@
+Araştırma: 7 / 2 neden 3 veriyor da 7 / 2.0 3.5 veriyor? Kendi cümlelerinizle açıklayın.
+
+Sayılara program içinde int, float gibi tipler atanmadığında program sayıları 
+görebildiği en küçük haliyle kullanıyor.
+Diğer türlü gördüğü her sayıyı float, long gibi işleme alırsa bellekte gereksiz yer kaplar.
+
+Dolayısıyla 7 ve 2 sayılarında bilgisayar en makul tip olan int tipini, 2.0
+sayısında ise float tipini kullanıyor.
+Sonuç olarak 7/2 işleminde sayılar int ve sonuç int, 7/2.0 işleminde de bölen sayı float
+ve sonuç da floattır.
